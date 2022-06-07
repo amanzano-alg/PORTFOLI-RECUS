@@ -1,0 +1,151 @@
+*{
+
+margin: 0;
+padding: 0;
+
+}
+
+body{
+
+background-color: black;
+
+}
+
+#cabecera{
+
+  width: 100%;
+  height: 450px;
+
+  background-image:url(images/logo.png);
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+#contenedor{
+
+  background-color: black;
+
+  width: 80%;
+  height: 2330px;
+
+  margin: 0 auto;
+  padding-top: 40px;
+
+}
+
+.paginas{
+
+background-color: white;
+
+width: 452px;
+height: 733px;
+
+float: left;
+
+margin: 1%;
+
+}
+
+.vacio{
+
+background-color: black;
+
+width: 452px;
+height: 733px;
+
+float: left;
+
+margin: 1%;
+
+}
+
+#feedly{
+
+  background-image: url(images/feedly.jpg);
+  background-position: center;
+
+}
+
+#bob{
+
+  background-image: url(images/bob.jpg);
+  background-position: center;
+
+}
+
+#provaweb{
+
+  background-image: url(images/provaweb.jpg);
+  background-position: center;
+
+}
+
+#animacio{
+
+  background-image: url(images/animacio.jpg);
+  background-position: center;
+
+}
+
+#regions{
+
+  background-image: url(images/regions.jpg);
+  background-position: center;
+
+}
+
+#float{
+
+  background-image: url(images/float.jpg);
+  background-position: center;
+
+}
+
+#provamenu{
+
+  background-image: url(images/provamenu.jpg);
+  background-position: center;
+
+}
+
+#footer{
+
+  background-color: white;
+
+  width: 100%;
+  height: 200px;
+
+}
+
+@media (max-width: 450px) {
+
+.paginas{
+
+  width: 226px;
+  height: 366px;
+  margin-left: 15%;
+  background-size: contain;
+
+}
+
+.vacio{
+
+  display: none;
+
+}
+
+#cabecera{
+
+  background-size: contain;
+
+}
+
+}
+
+a{
+
+cursor: pointer;
+
+}

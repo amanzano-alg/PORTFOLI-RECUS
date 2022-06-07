@@ -1,0 +1,41 @@
+body{
+background-color: lightblue;
+
+}
+
+
+#caja1{
+  height: 300px;
+  width: 300px;
+  float:left;
+  background-color: darkred;
+  margin: 30px;
+}
+
+#caja2{
+  height: 300px;
+  width: 300px;
+  float:left;
+  background-color: blue;
+  margin: 30px;
+}
+
+#caja3{
+  height: 300px;
+  width: 300px;
+  float:left;
+  background-color: green;
+  margin: 30px;
+}
+
+#caja4{
+  height: 300px;
+  width: 300px;
+  float:left;
+  background-color: yellow;
+  margin: 30px;
+}
+
+.hover1{
+  background-color: blue;
+}

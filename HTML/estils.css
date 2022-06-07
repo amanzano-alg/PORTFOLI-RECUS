@@ -1,0 +1,50 @@
+body{
+  margin: 0 auto;
+  background-color: white;
+}
+
+#cabecera{
+
+  background-color: pink;
+  height: 200px;
+}
+
+#contenedor{
+  margin: auto;
+  background-color: orange;
+  height: 700px;
+  width: 1000px;
+}
+
+.azules{
+
+margin-left: 90px;
+margin-top: 60px;
+float: left;
+background-color: lightblue;
+height: 100px;
+width: 350px;
+
+}
+
+#blanco{
+
+margin-left: 90px;
+margin-top: 60px;
+float: left;
+background-color: white;
+height: 100px;
+width: 800px;
+
+}
+
+#footer{
+
+  background-color: pink;
+  height: 100px;
+}
+
+.clear{
+clear: both;
+
+}

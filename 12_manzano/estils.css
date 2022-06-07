@@ -1,0 +1,168 @@
+body{
+  background-color: #001E44;
+
+}
+
+
+#s1{
+  background-color: #DADADA ;
+  top: 85px;
+  left: -400px;
+  height: 880px;
+  width: 3080px;
+  position: absolute;
+  z-index: 20;
+  clip-path: ellipse(50% 40% at 50% 100%);
+}
+
+
+#s2{
+  background-color: #B4B4B4 ;
+  height: 1500px;
+  width: 2500px;
+  position: absolute;
+  z-index: 10;
+  top: -535px;
+  right: -600px;
+  clip-path: ellipse(50% 40% at 50% 100%);
+}
+
+#a1{
+
+  background-color: #1D4F8F ;
+  position: absolute;
+  width: 2280px;
+  height: 2280px;
+  top: 400px;
+  left: -50px;
+  z-index: 2;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+
+}
+
+.ice{
+
+  background-color: #FFFFFF;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  z-index: 1;
+  top: -65px;
+  left: 1700px;
+  clip-path: polygon(44% 0, 58% 7%, 64% 23%, 83% 30%, 100% 66%, 70% 57%, 46% 56%, 8% 55%, 8% 28%, 34% 19%);
+  animation-name: ice;
+  animation-duration: 30s;
+}
+
+@keyframes ice {
+0%{transform: translateX(0px);}
+100%{transform: translateX(-1600px);}
+}
+
+.iglu{
+
+background-color: #FFFFFF;
+position: absolute;
+height: 250px;
+width: 250px;
+top: 140px;
+left: 1100px;
+z-index: 3;
+clip-path: circle(50% at 50% 95%);
+
+}
+
+#puerta{
+
+background-color: #FFE648;
+position: absolute;
+height: 80px;
+width: 80px;
+top: 290px;
+left: 1185px;
+z-index: 5;
+clip-path: ellipse(35% 70% at 49% 100%);
+
+}
+
+
+#pasillo{
+
+background-color: #CDCDCD;
+position: absolute;
+height: 160px;
+width: 160px;
+top: 250px;
+left: 1145px;
+z-index: 4;
+clip-path: ellipse(35% 70% at 49% 100%);
+
+}
+
+#nea{
+  background-color: #FFFFFF;
+  position: absolute;
+  height: 40px;
+  width: 30px;
+  left: 1270px;
+  top: 240px;
+  z-index: 10000;
+  clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+
+}
+
+#humo{
+background-color: #CDCDCD;
+position: absolute;
+height: 103px;
+width: 203px;
+z-index: 10000;
+left: 1200px;
+top: 150px;
+opacity: 70%;
+clip-path: polygon(40% 13%, 44% 15%, 46% 16%, 48% 17%, 51% 19%, 54% 22%, 56% 25%, 57% 28%, 58% 30%, 59% 33%, 60% 37%, 59% 40%, 58% 45%, 56% 49%, 54% 53%, 51% 57%, 48% 61%, 45% 68%, 45% 71%, 45% 77%, 46% 80%, 42% 79%, 38% 76%, 36% 72%, 35% 67%, 34% 63%, 36% 57%, 40% 52%, 43% 49%, 46% 46%, 48% 42%, 49% 39%, 49% 37%, 50% 34%, 50% 32%, 50% 29%, 49% 26%, 48% 24%, 47% 21%, 44% 19%, 42% 16%);
+
+animation-name: humo;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+}
+
+@keyframes humo {
+0%{transform: translateY(0px);
+   opacity: 70%;}
+100%{transform: translateY(-100px);
+opacity: 0%;}
+}
+
+#nube{
+
+  background-color: #404568;
+  position: relative;
+  height: 400px;
+  width: 400px;
+  z-index: 10001;
+  opacity: 50%;
+  top:-190px;
+  right: 420px;
+  animation-name: nube;
+  animation-duration: 30s;
+  clip-path: ellipse(50% 13% at 50% 50%);
+
+}
+
+@keyframes nube {
+0%{transform: translateX(0px);}
+100%{transform: translateX(2400px);}
+}
+
+#arbol{
+
+  background-color: #685240;
+  position: absolute;
+  height: 1000px;
+  width: 300px;
+  z-index: 10004;
+  left: 1450px;
+  top: 0px;
+clip-path: polygon(30% 0, 100% 0, 80% 100%, 10% 100%);
+}
